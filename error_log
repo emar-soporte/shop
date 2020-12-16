@@ -1,0 +1,197 @@
+[25-Sep-2020 14:21:25 UTC] PHP Warning:  include_once(): Failed opening '/home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-template-functions.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 551
+[25-Sep-2020 14:21:25 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/upperpr/public_html/emar/wp-admin/includes/class-wp-site-health.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-settings.php on line 528
+[25-Sep-2020 14:21:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/upperpr/public_html/emar/wp-content/plugins/kapee-extensions/inc/vc/vc-elements/counter.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/kapee-extensions/inc/vc/vc-elements/init.php on line 54
+[25-Sep-2020 14:22:12 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/upperpr/public_html/emar/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Domain/Bootstrap.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/autoload_functions.php on line 39
+[25-Sep-2020 16:14:53 UTC] PHP Warning:  include_once(): Failed opening '/home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-compare/plugin-fw/lib/yit-icons.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-compare/plugin-fw/yit-plugin.php on line 36
+[25-Sep-2020 16:14:55 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-template-tags.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/themes/kapee/functions.php on line 107
+[25-Sep-2020 16:14:59 UTC] PHP Warning:  include_once(): Failed opening '/home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-compare/plugin-fw/lib/yit-plugin-panel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-compare/plugin-fw/yit-plugin.php on line 25
+[25-Sep-2020 16:15:00 UTC] PHP Fatal error:  Uncaught Error: Class 'YIT_Plugin_Panel' not found in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-compare/plugin-fw/lib/yit-plugin-panel-wc.php:25
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-compare/plugin-fw/yit-plugin.php(26): include_once()
+#1 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-wishlist/includes/class.yith-wcwl.php(108): require_once('/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-includes/class-wp-hook.php(287): YITH_WCWL->plugin_fw_loader('')
+#3 /home/upperpr/public_html/emar/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/upperpr/public_html/emar/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/upperpr/public_html/emar/wp-settings.php(409): do_action('plugins_loaded')
+#6 /home/upperpr/public_html/emar/wp-config.php(90): require_once('/home/upperpr/p...')
+#7 /home/upperpr/public_html/emar/wp-load.php(37): require_once('/home/upperpr/p...')
+#8 /home/upper in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-compare/plugin-fw/lib/yit-plugin-panel-wc.php on line 25
+[25-Sep-2020 16:15:02 UTC] PHP Warning:  include_once(): Failed opening '/home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-template-functions.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 551
+[25-Sep-2020 16:15:02 UTC] PHP Warning:  include_once(): Failed opening '/home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-template-functions.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 551
+[25-Sep-2020 16:15:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home/upperpr/public_html/emar/wp-includes/class-wp-hook.php on line 287
+[25-Sep-2020 16:15:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home/upperpr/public_html/emar/wp-includes/class-wp-hook.php on line 287
+[25-Sep-2020 16:15:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home/upperpr/public_html/emar/wp-includes/class-wp-hook.php on line 289
+[25-Sep-2020 16:15:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home/upperpr/public_html/emar/wp-includes/class-wp-hook.php on line 289
+[25-Sep-2020 16:15:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_logout_url() in /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/integrations/woocommerce/wc-core-functions.php:52
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/themes/kapee/template-parts/header/elements/myaccount.php(31): kapee_get_myaccount_menu()
+#1 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-core-functions.php(939): include('/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/themes/kapee/template-parts/header/header-2.php(43): kapee_get_template('template-parts/...')
+#3 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-core-functions.php(939): include('/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-content/themes/kapee/template-parts/header/header.php(23): kapee_get_template('template-parts/...', Array)
+#5 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-core-functions.php(939): include('/home/upperpr/p...')
+#6 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/ in /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/integrations/woocommerce/wc-core-functions.php on line 52
+[25-Sep-2020 16:15:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_logout_url() in /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/integrations/woocommerce/wc-core-functions.php:52
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/themes/kapee/template-parts/header/elements/myaccount.php(31): kapee_get_myaccount_menu()
+#1 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-core-functions.php(939): include('/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/themes/kapee/template-parts/header/header-2.php(43): kapee_get_template('template-parts/...')
+#3 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-core-functions.php(939): include('/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-content/themes/kapee/template-parts/header/header.php(23): kapee_get_template('template-parts/...', Array)
+#5 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-core-functions.php(939): include('/home/upperpr/p...')
+#6 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/ in /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/integrations/woocommerce/wc-core-functions.php on line 52
+[29-Sep-2020 18:08:31 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/upperpr/public_html/emar/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/SqlQuery.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/autoload_functions.php on line 39
+[01-Oct-2020 16:40:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_current_user() in /home/upperpr/public_html/emar/wp-includes/class-wp.php:611
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-settings.php(533): WP->init()
+#1 /home/upperpr/public_html/emar/wp-config.php(90): require_once('/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-load.php(37): require_once('/home/upperpr/p...')
+#3 /home/upperpr/public_html/emar/wp-blog-header.php(13): require_once('/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/index.php(17): require('/home/upperpr/p...')
+#5 {main}
+  thrown in /home/upperpr/public_html/emar/wp-includes/class-wp.php on line 611
+[01-Oct-2020 16:40:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-core-functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/themes/kapee/functions.php on line 106
+[01-Oct-2020 17:41:50 UTC] PHP Warning:  include_once(): Failed opening '/home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-template-functions.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 551
+[01-Oct-2020 17:41:50 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/upperpr/public_html/emar/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/js_composer/include/classes/core/class-vc-manager.php on line 775
+[01-Oct-2020 17:41:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_generator_tag' not found or invalid function name in /home/upperpr/public_html/emar/wp-includes/class-wp-hook.php on line 287
+[01-Oct-2020 17:41:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_body_class' not found or invalid function name in /home/upperpr/public_html/emar/wp-includes/class-wp-hook.php on line 289
+[01-Oct-2020 17:41:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_logout_url() in /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/integrations/woocommerce/wc-core-functions.php:52
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/themes/kapee/template-parts/header/elements/myaccount.php(31): kapee_get_myaccount_menu()
+#1 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-core-functions.php(939): include('/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/themes/kapee/template-parts/header/header-2.php(43): kapee_get_template('template-parts/...')
+#3 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-core-functions.php(939): include('/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-content/themes/kapee/template-parts/header/header.php(23): kapee_get_template('template-parts/...', Array)
+#5 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/kp-core-functions.php(939): include('/home/upperpr/p...')
+#6 /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/ in /home/upperpr/public_html/emar/wp-content/themes/kapee/inc/integrations/woocommerce/wc-core-functions.php on line 52
+[01-Oct-2020 17:47:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/upperpr/public_html/emar/wp-content/plugins/revslider/admin/includes/loadbalancer.class.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/revslider/revslider.php on line 45
+[12-Oct-2020 22:35:41 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[12-Oct-2020 22:35:41 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[14-Oct-2020 11:51:26 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[14-Oct-2020 11:51:26 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[21-Oct-2020 11:13:16 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[21-Oct-2020 11:13:16 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[24-Oct-2020 22:40:29 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[24-Oct-2020 22:40:29 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[31-Oct-2020 16:54:31 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[31-Oct-2020 16:54:31 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[01-Nov-2020 03:19:05 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[01-Nov-2020 03:19:05 UTC] PHP Warning:  ltrim() expects parameter 1 to be string, object given in /home/upperpr/public_html/emar/wp-includes/formatting.php on line 4309
+[10-Nov-2020 18:47:50 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/upperpr/public_html/emar/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/autoload_functions.php on line 39
+[10-Nov-2020 18:47:50 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/upperpr/public_html/emar/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/autoload_functions.php on line 39
+[10-Nov-2020 18:48:39 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/upperpr/public_html/emar/wp-settings.php:430
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-config.php(90): require_once()
+#1 /home/upperpr/public_html/emar/wp-load.php(37): require_once('/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-blog-header.php(13): require_once('/home/upperpr/p...')
+#3 /home/upperpr/public_html/emar/index.php(17): require('/home/upperpr/p...')
+#4 {main}
+  thrown in /home/upperpr/public_html/emar/wp-settings.php on line 430
+[10-Nov-2020 18:48:39 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Query' not found in /home/upperpr/public_html/emar/wp-settings.php:430
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-config.php(90): require_once()
+#1 /home/upperpr/public_html/emar/wp-load.php(37): require_once('/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-cron.php(44): require_once('/home/upperpr/p...')
+#3 {main}
+  thrown in /home/upperpr/public_html/emar/wp-settings.php on line 430
+[05-Dec-2020 21:20:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/upperpr/public_html/emar/wp-content/themes/kapee/functions.php on line 735
+[05-Dec-2020 21:20:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/upperpr/public_html/emar/wp-content/themes/kapee/functions.php on line 735
+[05-Dec-2020 21:20:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/upperpr/public_html/emar/wp-content/themes/kapee/functions.php on line 735
+[05-Dec-2020 21:20:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/upperpr/public_html/emar/wp-content/themes/kapee/functions.php on line 735
+[05-Dec-2020 21:24:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/upperpr/public_html/emar/wp-content/themes/kapee/functions.php on line 735
+[09-Dec-2020 01:50:25 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:50:27 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:51:42 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:51:42 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:51:44 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:51:44 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:53:19 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:53:19 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:53:21 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:53:21 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:53:32 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:53:32 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:53:34 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:53:34 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:54:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_product_subtotal() on null in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/upperpr/p...')
+#3 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_ta in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php on line 144
+[09-Dec-2020 01:54:55 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:54:55 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:54:57 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 01:55:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_product_subtotal() on null in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/upperpr/p...')
+#3 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_ta in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php on line 144
+[09-Dec-2020 02:02:42 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:02:42 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:02:42 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:02:44 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:02:44 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:02:44 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:04:05 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:04:06 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:07:56 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:07:58 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:12:11 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:12:13 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:17:56 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:17:56 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:17:58 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:17:58 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 02:18:48 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 04:32:27 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 04:32:27 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 04:32:29 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 04:32:29 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 04:42:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_product_subtotal() on null in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/upperpr/p...')
+#3 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_ta in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php on line 144
+[09-Dec-2020 04:43:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_product_subtotal() on null in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/upperpr/p...')
+#3 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_ta in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php on line 144
+[09-Dec-2020 15:46:01 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 15:46:03 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 15:47:47 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 18:56:48 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 18:56:50 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 18:57:19 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 18:57:20 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 19:03:41 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 19:03:43 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 19:04:39 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 19:04:41 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 19:04:41 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 19:04:41 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 19:04:43 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 19:04:43 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 19:12:05 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 19:12:07 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 20:50:30 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[09-Dec-2020 20:50:38 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[11-Dec-2020 05:18:00 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[11-Dec-2020 05:18:01 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[11-Dec-2020 05:18:14 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[11-Dec-2020 05:55:34 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/upperpr/public_html/emar/wp-content/themes/kapee/functions.php on line 749
+[11-Dec-2020 16:12:46 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999
+[11-Dec-2020 16:12:49 UTC] PHP Warning:  A non-numeric value encountered in /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/class-wc-cart.php on line 1999

@@ -1,0 +1,36 @@
+2020-12-09T01:54:50+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/upperpr/p...')
+#3 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_ta en /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-09T01:55:51+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/upperpr/p...')
+#3 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_ta en /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-09T04:42:10+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/upperpr/p...')
+#3 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_ta en /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-09T04:43:12+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/home/upperpr/p...')
+#2 /home/upperpr/public_html/emar/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/upperpr/p...')
+#3 /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/home/upperpr/p...')
+#4 /home/upperpr/public_html/emar/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_ta en /home/upperpr/public_html/emar/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
